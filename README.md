@@ -107,19 +107,20 @@ A Master no se va poder hacer PR's.
 Arriba a la derecha, pulsa el botón 'Fork'.
 ```
 
-![](https://github.com/GeeksHubsAcademy/2020-geekshubs-media/blob/master/image/2020-js-vanilla-testing-004/F00.PNG)
+![](https://github.com/GeeksHubsAcademy/2020-geekshubs-media/blob/master/image/2020-js-vanilla-testing-004/F00.png)
 
 ```
 Una vez realizada la copia, ya puedes trabajar desde tu repositorio. 
 
-Para probar si la implementación es correcta, debes de hacer una PR a la rama 'develop_{USER}' de GeekshubsAcademy.
+Para probar si la implementación es correcta, debes de hacer una PR a la rama 'develop_{USER}' 
+de GeekshubsAcademy.
 ```
 
-![](https://github.com/GeeksHubsAcademy/2020-geekshubs-media/blob/master/image/2020-js-vanilla-testing-004/000.PNG)
 
 ```
 Automáticamente, aparecerá un diálogo con un icono de Travis y el check del lanzamiento de los Tests.
 ```
+![](https://github.com/GeeksHubsAcademy/2020-geekshubs-media/blob/master/image/2020-js-vanilla-testing-004/000.PNG)
 
 
 ### Conclusiones
