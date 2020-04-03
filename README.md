@@ -109,12 +109,34 @@ Arriba a la derecha, pulsa el botón 'Fork'.
 
 ![](https://github.com/GeeksHubsAcademy/2020-geekshubs-media/blob/master/image/2020-js-vanilla-testing-004/F00.png)
 
+
 ```
 Una vez realizada la copia, ya puedes trabajar desde tu repositorio. 
+Aplica los cambios necesarios a las funciones :
+
+ * function toString(param) { return [...]  }
+ * function toFixed(param,indice) { return [...] } 
+ 
+ Estas deben tener un sentido lógico respecto a la descripción de la suite de Test.
+ 
+ * test('toFixed(123456.52,5)  to equals "123456.52000" )', () => { ... }
+ * test('toString(789) to equals "789" )', () => { ... }
+ 
+ 
+Unas pequeñas observaciones son el input y el output.
+Siempre ponemos un numerador a la llamada de la funcioón y obtenemos una String a la salida.
+ 
+ 
+Recuedas el termino 'Ingeniería Inversa' ?
+
+Debemos de ser capaces de poder generar hipótesis de resultados simplemente leyendo los
+títulos de las cabeceras de los Tests.
 
 Para probar si la implementación es correcta, debes de hacer una PR a la rama 'develop_{USER}' 
 de GeekshubsAcademy.
 ```
+
+![](https://github.com/GeeksHubsAcademy/2020-geekshubs-media/blob/master/image/2020-js-vanilla-testing-004/PR.png)
 
 
 ```
