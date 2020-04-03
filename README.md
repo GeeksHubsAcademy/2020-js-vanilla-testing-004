@@ -200,7 +200,8 @@ Esto nos permitirá acceder a la traza de logs del servicio de Travis.
 ![](https://github.com/GeeksHubsAcademy/2020-geekshubs-media/blob/master/image/2020-js-vanilla-testing-004/101.PNG)
 
 ```
-Una vez abierta la página de despliegues de Travis, hacemos un poco de scroll hacia abajo y observaremos los resultados de los Tests.
+Una vez abierta la página de despliegues de Travis, hacemos un poco de scroll hacia abajo 
+y observaremos los resultados de los Tests.
 ```
 
 ![](https://github.com/GeeksHubsAcademy/2020-geekshubs-media/blob/master/gif/2020-js-vanilla-testing-004/travis-ci.gif)
@@ -226,14 +227,26 @@ Los errores que nos dice la traza son los siguientes :
 	Ran all test suites.
 	  
 
-Ahora debemos de iterar en esta secuencia de instrucciones y darle la implementación correcta a nuestras funciones.
+La pull-request la podemos descartar debido a que los Tests no están bien.
+Pulsamos el botón 'Close pull request'.
 
-
+Ahora debemos de iterar en esta secuencia de instrucciones y darle la implementación correcta a 
+nuestras funciones.
 ```
 
 
 ### Conclusiones
 ```
+Participar en un proyecto es una experiencia bastante interesante que permite conocer nuevas personas
+y aprender mucho en el proceso. La capacidad de adoptar hábitos desde el inicio del aprendizaje 
+es algo muy importante.
+
+Si has llegado hacer una PR y el check de Travis salió en verde, enhorabuena.
+Nosotros te mergearemos la rama al repositorio de Geekshubs y contarás con tu primera PR oficial!
+Has dado pasitos de gigante!
+
+Si te has quedado por el camino y no llegastes a ver el check de Travis en verde, no te preocupes,
+nos ha pasado a todos...  Poquito a poquito.
 
 ```
 
@@ -242,8 +255,6 @@ Ahora debemos de iterar en esta secuencia de instrucciones y darle la implementa
   * [Martin Fowler](https://martinfowler.com/articles/continuousIntegration.html)
   * [SaaS](https://es.wikipedia.org/wiki/Software_como_servicio)
   * [Travis-CI](https://docs.travis-ci.com/user/for-beginners/)
-  
-
 
 <div>
     <p align="center">
@@ -257,5 +268,5 @@ Ahora debemos de iterar en esta secuencia de instrucciones y darle la implementa
          <a href="https://github.com/GeeksHubsAcademy/2020-js-vanilla-testing-004/blob/master/README.md#referencias">
         <img src="https://github.com/GeeksHubsAcademy/2020-geekshubs-media/blob/master/image/pixel.png" align="center"                  height="10" width="714"/>
          </a>
-         <a href="https://github.com/GeeksHubsAcademy/2020-js-vanilla-testing-005">Siguiente >></a>   
+         <a href="https://github.com/GeeksHubsAcademy/2020-js-vanilla-testing-004/blob/master/README.md#referencias">Siguiente >></a>   
     </div>
