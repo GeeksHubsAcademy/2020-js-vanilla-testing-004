@@ -99,10 +99,14 @@ El proyecto ya está preparado para usar Travis automáticamente.
 
 Cada alumno debe de tener una rama develop predefinida por el profesor para que puedas hacer PR's en ella.
 Esto quiere decir, que si yo me llamo "T-1000", este repositorio debe de tener un rama 'develop_T-1000'.
-Ésta servirá para subir los cambios. 
+Ésta servirá para subir los cambios de cada alumno.
 
 A Master no se va poder hacer PR's.
+```
 
+
+### Haciendo una PR al repo base de Geekshubs
+```
 'Forkeate' el repo para que se genere una copia en tu cuenta local y puedas trabajar desde el mismo.
 Arriba a la derecha, pulsa el botón 'Fork'.
 ```
@@ -170,7 +174,7 @@ Añadimos un título y pulsamos el botón de 'Create pull request'.
 ![](https://github.com/GeeksHubsAcademy/2020-geekshubs-media/blob/master/image/2020-js-vanilla-testing-004/PR_open.png)
 
 ```
-Automáticamente, aparecerá un diálogo con el check del lanzamiento de los Tests.
+Automáticamente, aparecerá un diálogo con el check de la disponibilidad del mergeo de la rama.
 ```
 
 ![](https://github.com/GeeksHubsAcademy/2020-geekshubs-media/blob/master/image/2020-js-vanilla-testing-004/102.png)
@@ -183,14 +187,54 @@ Segundos después, el checking de Travis lanzando en su servidor nuestros 2 test
 
 ```
 Posteriormente, aparece el fallo de la ejecución de los Tests.
+Si queremos saber el origen del fallo, pulsamos el enlace 'Details'.
 ```
 
 ![](https://github.com/GeeksHubsAcademy/2020-geekshubs-media/blob/master/image/2020-js-vanilla-testing-004/100.PNG)
 
+```
+Accedemos a una página que da el reporte de la ejecución.
+Buscamos los 'Jobs' (ejecuciones aisladas) de nuestros Test y pulsamos sobre una de ellas.
+Esto nos permitirá acceder a la traza de logs del servicio de Travis.
+```
+![](https://github.com/GeeksHubsAcademy/2020-geekshubs-media/blob/master/image/2020-js-vanilla-testing-004/101.PNG)
+
+```
+Una vez abierta la página de despliegues de Travis, hacemos un poco de scroll hacia abajo y observaremos los resultados de los Tests.
+```
+
+![](https://github.com/GeeksHubsAcademy/2020-geekshubs-media/blob/master/gif/2020-js-vanilla-testing-004/travis-ci.gif)
+
+```
+Los errores que nos dice la traza son los siguientes :
+
+	● toFixed(123456.52,5)  to equals "123456.52000" )
+	 
+	   Expected: "123456.52000"
+    	   Received: 0
+	 
+ 	● toString(789) to equals "789" )
+	
+	   Expected: "789"
+	   Received: null
+	   
+	   
+	Test Suites: 1 failed, 1 total
+	Tests:       2 failed, 2 total
+	Snapshots:   0 total
+	Time:        1.048s
+	Ran all test suites.
+	  
+
+Ahora debemos de iterar en esta secuencia de instrucciones y darle la implementación correcta a nuestras funciones.
+
+
+```
+
 
 ### Conclusiones
 ```
-ZZZZ
+
 ```
 
 
