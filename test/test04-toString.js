@@ -1,5 +1,5 @@
 function toString(param) {
-	return null;
+	return 0;
 }
 
 module.exports = toString;
