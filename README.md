@@ -51,10 +51,76 @@ Podemos decir que es una opción similar a Jenkins, pero tiene sus diferencias. 
 no tiene costos de mantenimiento (es un SaaS <[^_^]>! ) y su configuración es bastante fácil.
 ```
 
-### Convenio de trabajo
+### Arquitectura del proyecto
+```
+La paquetería del proyecto ya esta definida por nosotros.
+
+La raiz del repositorio contiene estos elementos:
+
+/test
+.gitignore
+.travis.yml
+package.json
+package-lock.json
+README.MD
+
+En la carpeta 'test' encontrás 5 ficheros.
+
+package.json
+package-lock.json
+suite.test.js
+test04-toFixed.js
+test04-toString.js
+
+A nosotros solo nos interesan 
+
+test04-toFixed.js
+test04-toString.js
+suite.test.js
+
+El tercer fichero es la suite de Test que debemos de analizar.
+
+ * test('toFixed(123456.52,5)  to equals "123456.52000" )', () => { ... }
+ 
+ * test('toString(789) to equals "789" )', () => { ... }
+
+
+Los dos primeros ficheros continene las funciones vacías que debemos implementar.
+
+ * function toString(param) { return null; }
+
+ * function toFixed(param,indice) { return null; }
+ 
 ```
 
+### Convenio de trabajo
 ```
+El proyecto ya está preparado para usar Travis automáticamente.
+
+Cada alumno debe de tener una rama develop predefinida por el profesor para que puedas hacer PR's en ella.
+Esto quiere decir, que si yo me llamo "T-1000", este repositorio debe de tener un rama 'develop_T-1000'.
+Ésta servirá para subir los cambios. 
+
+A Master no se va poder hacer PR's.
+
+'Forkeate' el repo para que se genere una copia en tu cuenta local y puedas trabajar desde el mismo.
+Arriba a la derecha, pulsa el botón 'Fork'.
+```
+
+![](https://github.com/GeeksHubsAcademy/2020-geekshubs-media/blob/master/image/2020-js-vanilla-testing-004/F00.PNG)
+
+```
+Una vez realizada la copia, ya puedes trabajar desde tu repositorio. 
+
+Para probar si la implementación es correcta, debes de hacer una PR a la rama 'develop_{USER}' de GeekshubsAcademy.
+```
+
+![](https://github.com/GeeksHubsAcademy/2020-geekshubs-media/blob/master/image/2020-js-vanilla-testing-004/000.PNG)
+
+```
+Automáticamente, aparecerá un diálogo con un icono de Travis y el check del lanzamiento de los Tests.
+```
+
 
 ### Conclusiones
 ```
