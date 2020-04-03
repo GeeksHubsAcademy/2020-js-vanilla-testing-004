@@ -1,5 +1,5 @@
 function toFixed(param,indice) {
-	return null;
+	return 0;
 }
 
 module.exports = toFixed;
