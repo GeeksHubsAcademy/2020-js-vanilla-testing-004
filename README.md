@@ -247,6 +247,8 @@ Has dado pasitos de gigante!
 
 Si te has quedado por el camino y no llegastes a ver el check de Travis en verde, no te preocupes,
 nos ha pasado a todos...  Poquito a poquito.
+Solo con haberlo intentado,  ya es una experiencia que nadie te va a quitar.
+Con nuestra ayuda lo lograrás!
 
 ```
 
