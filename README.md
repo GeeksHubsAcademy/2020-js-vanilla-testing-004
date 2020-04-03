@@ -123,25 +123,45 @@ Aplica los cambios necesarios a las funciones :
  * test('toString(789) to equals "789" )', () => { ... }
  
  
-Unas pequeñas observaciones son el input y el output.
-Siempre ponemos un numerador a la llamada de la funcioón y obtenemos una String a la salida.
- 
+Unas pequeñas observaciones son el input y el output de los tests.
+A las funciones siempre entra como input un numerador y obtenemos una String a la salida.
  
 Recuedas el termino 'Ingeniería Inversa' ?
 
 Debemos de ser capaces de poder generar hipótesis de resultados simplemente leyendo los
 títulos de las cabeceras de los Tests.
 
+Primero diseñamos y luego implementamos.
+
 Para probar si la implementación es correcta, debes de hacer una PR a la rama 'develop_{USER}' 
 de GeekshubsAcademy.
+
+Para esta guía he hecho un simple cambio para que hayan diferencias y pueda realizar la PR.
+He añadido un 0 a la devolución de la función
+
+function toFixed(param,indice) {
+	return 0;
+}
+
 ```
 
 ![](https://github.com/GeeksHubsAcademy/2020-geekshubs-media/blob/master/image/2020-js-vanilla-testing-004/PR.png)
+
+```
+Visualizamos la comparación de las ramas y buscamos nuestra rama 'develop_{USER}', en mi caso 'develop_vicboma1'.
+En caso de que el profesor no haya añadido la rama de nuestro usuario, hay creado un plan b.
+
+Se puede observar una rama 'feature'.
+Podéis usarla para hacer la PR sobre dicha rama. 
+```
+
+![](https://github.com/GeeksHubsAcademy/2020-geekshubs-media/blob/master/image/2020-js-vanilla-testing-004/PR_changes.png)
 
 
 ```
 Automáticamente, aparecerá un diálogo con un icono de Travis y el check del lanzamiento de los Tests.
 ```
+
 ![](https://github.com/GeeksHubsAcademy/2020-geekshubs-media/blob/master/image/2020-js-vanilla-testing-004/000.PNG)
 
 
