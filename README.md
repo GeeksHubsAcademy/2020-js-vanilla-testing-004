@@ -137,18 +137,20 @@ Para probar si la implementación es correcta, debes de hacer una PR a la rama '
 de GeekshubsAcademy.
 
 Para esta guía he hecho un simple cambio para que hayan diferencias y pueda realizar la PR.
-He añadido un 0 a la devolución de la función
+He añadido un 0 a la devolución de la función:
 
-function toFixed(param,indice) {
+function toString(param) {
 	return 0;
 }
 
+Pulsamos botón 'New Pull request'.
 ```
 
 ![](https://github.com/GeeksHubsAcademy/2020-geekshubs-media/blob/master/image/2020-js-vanilla-testing-004/PR.png)
 
 ```
-Visualizamos la comparación de las ramas y buscamos nuestra rama 'develop_{USER}', en mi caso 'develop_vicboma1'.
+A continuación visualizamos la comparación de las ramas y buscamos la rama con el convenio 'develop_{USER}'.
+Para mi caso de uso es 'develop_vicboma1'.
 En caso de que el profesor no haya añadido la rama de nuestro usuario, hay creado un plan b.
 
 Se puede observar una rama 'feature'.
@@ -159,10 +161,31 @@ Podéis usarla para hacer la PR sobre dicha rama.
 
 
 ```
-Automáticamente, aparecerá un diálogo con un icono de Travis y el check del lanzamiento de los Tests.
+Seguidamente, aparecerá un diálogo para efectuar la PR al repositorio de 
+GeekshubsAcademy (base) [rama 'develop_vicboma1'] desde nuestro repositorio [ rama 'master'].
+
+Añadimos un título y pulsamos el botón de 'Create pull request'.
+```
+
+![](https://github.com/GeeksHubsAcademy/2020-geekshubs-media/blob/master/image/2020-js-vanilla-testing-004/PR_open.png)
+
+```
+Automáticamente, aparecerá un diálogo con el check del lanzamiento de los Tests.
+```
+
+![](https://github.com/GeeksHubsAcademy/2020-geekshubs-media/blob/master/image/2020-js-vanilla-testing-004/102.png)
+
+```
+Segundos después, el checking de Travis lanzando en su servidor nuestros 2 tests.
 ```
 
 ![](https://github.com/GeeksHubsAcademy/2020-geekshubs-media/blob/master/image/2020-js-vanilla-testing-004/000.PNG)
+
+```
+Posteriormente, aparece el fallo de la ejecución de los Tests.
+```
+
+![](https://github.com/GeeksHubsAcademy/2020-geekshubs-media/blob/master/image/2020-js-vanilla-testing-004/100.PNG)
 
 
 ### Conclusiones
