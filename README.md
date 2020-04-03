@@ -10,6 +10,9 @@
 * [Automatizando Tests en la nube](https://github.com/GeeksHubsAcademy/2020-js-vanilla-004/blob/master/README.md#)
 * [Qué es un SaaS](https://github.com/GeeksHubsAcademy/2020-js-vanilla-004/blob/master/README.md#)
 * [Travis-CI](https://github.com/GeeksHubsAcademy/2020-js-vanilla-004/blob/master/README.md#travis-ci)
+* [Arquitectura del proyecto](https://github.com/GeeksHubsAcademy/2020-js-vanilla-testing-004/blob/master/README.md#arquitectura-del-proyecto)
+* [Convenio de trabajo](https://github.com/GeeksHubsAcademy/2020-js-vanilla-testing-004/blob/master/README.md#convenio-de-trabajo)
+* [Haciendo una PR al repositorio base](https://github.com/GeeksHubsAcademy/2020-js-vanilla-testing-004/blob/master/README.md#haciendo-una-pr-al-repo-base-de-geekshubs)
 * [Conclusiones](https://github.com/GeeksHubsAcademy/2020-js-vanilla-004/blob/master/README.md#conclusiones)
 * [Referencias](https://github.com/GeeksHubsAcademy/2020-js-vanilla-004/blob/master/README.md#referencias)
 
